@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.top-rip {
+  position: fixed;
+}
+
+.about {
+  color:grey;
+  float:left;
+  padding: 30px 80px;
+  margin:10px,auto;
+}
+.art {
+  color:grey;
+  float:left;
+  padding: 30px 100px;
+
+}
+.design{
+  color:grey;
+  float:left;
+  padding: 30px 80px;
+
+}
+.contact {
+  color:grey;
+  float:left;
+  padding: 30px 80px;
+  clear: right;
+
+}
+
+h1  {
+  background: aliceblue;
+  color: #F37A21;
+  text-align: center;
+  padding: 30px;
+  clear: both;
+}
+h1:hover {
+    background-color: #82EDFE;
+  }
+
+p {
+  color: grey;
+  padding: 50px, 20px;
+  margin: 10px, auto;
+  text-align: center;
+  padding: 100px;
+  max-width: 90%;
+}
+.custom-text {
+  color:#88353F;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.logo{
+  position: absolute;
+  max-height: 250px;
+  margin-top: 35px;
+  padding: 20px;
+  animation-duration: 60s;
+  animation-name: move;
+}
+@keyframes move {
+  from{
+    transform: translateX(20px)
+    }
+  to{
+    transform: translateX(600px);
+    }
+  }
+.earth {
+    position: absolute;
+    left: 100px;
+    border: none;
+  }
+
+.service-list{
+  color:#F37A21;
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: none;
+  margin-left: 700px;
+  margin-top: 70px;
+}
